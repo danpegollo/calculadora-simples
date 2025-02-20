@@ -1,37 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <title>Notas</title>
-  </head>
-  <body>
-    <h1>Veja se você passou de ano</h1>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    <label>Coloque um número</label>
+    <input id="n1" type="number">
     <div>
-      <label>Coloque sua nota de física</label>
-      <input id="nota_1" type="number" />
+        <label>Coloque outro número</label>
+        <input id="n2" type="number">
     </div>
 
     <div>
-      <label>Coloque sua nota de português</label>
-      <input id="nota_2" type="number" />
+        <button id="botao_soma">+</button>
+        <button id="botao_subtração">-</button>
+        <button id="botao_multiplicação">*</button>
+        <button id="botao_divisão">/</button>
     </div>
 
-    <div>
-      <label>Coloque sua nota de matemática</label>
-      <input id="nota_3" type="number" />
-    </div>
+    <p id="resultado_soma">Números somados: Nenhum até agora</p>
+    <p id="resultado_subtração">Números subtraidos: Nenhum até agora</p>
+    <p id="resultado_multiplicação">Números multiplicados: Nenhum até agora</p>
+    <p id="resultado_divisão">Números divididos: Nenhum até agora</p>
 
-    <div>
-      <label>Coloque sua nota de química</label>
-      <input id="nota_4" type="number" />
-    </div>
-
-    <button onclick="calcularMedia()" id="botao_calcular">Calcular</button>
-    <button onclick="reiniciar()" id="botão_reiniciar">Limpar campos</button>
-
-    <p id="resposta"></p>
+    <button onclick= "reiniciar()" id="btnreiniciar">Reiniciar</button>
     <script src="app.js" defer></script>
-  </body>
+</body>
 </html>
