@@ -1,4 +1,4 @@
-<h1>Formulário</h1>
+<h1>Calculador-Simples</h1>
 
 <h2>📝Sobre</h2>
 <p>Protótipo de calculadora, consegue avaliar os 4 principais tipos de operação com 2 números, tal qual soma, subtração, multiplicação e divisão.</p>
